@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      family-poppins
+      {
+        font-family: 'Poppins', sans-serif;
+
+      }
+    </style>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"></link>
+  </head>
+  <!-- [Poppins](https://fonts.google.com/specimen/Poppins) -->
+  <body class="flex flex-col family-poppins items-center p-0 m-0">
+    <div
+      class=" bg-[url('./images/bg-hero-mobile.svg') bg-[#ebfbff] w-screen h-[860px] text-center flex flex-col items-center md:flex md:flex-row md:justify-between md:items-center md:h-[600px] md:bg-[url('./images/bg-hero-desktop.svg')]"
+    >
+      <nav>
+        <img
+          class="absolute top-3 left-3 w-32 h-6 m-5"
+          src="./images/logo.svg"
+          alt=""
+          srcset=""
+        />
+        <button
+          class="border-1 rounded-full bg-white py-2 px-8 absolute top-6 right-8 font-bold drop-shadow-md"
+        >
+          Try It Free
+        </button>
+      </nav>
+      <div class="md:w-2/5">
+        <h1 class="relative top-24 text-3xl font-semibold mx-16 ">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="text-base mx-2 p-2 my-6 relative top-28 ">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you engage
+          in genuine discussion.
+        </p>
+  
+        <button
+          class="my-28 px-8 py-2 bg-pink-500 border-1 rounded-full text-white font-semibold"
+        >
+          Get Started For Free
+        </button>
+  
+      </div>
+      
+
+      <div class="md:3/5">
+        <img
+          class="m-5 relative bottom-6 h-80   md:max-w-15/16 md:max-h-4/5 "
+          src="./images/illustration-mockups.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="max-w-[950px]  m-4 flex flex-col border-2 rounded-lg  mx-4 bg-red w-76 shadow-lg md:flex md:flex-row-reverse md:text-center">
+      <img class=" max-w-[600px] w-3/4 mx-auto my-6 md:2/3 " src="./images/illustration-grow-together.svg" alt="" srcset="" />
+      <div class=" text-center flex-1 my-auto">
+        
+        <h2 class=" mx-auto text-2xl font-bold ">Grow Together</h2>
+        <p class="m-auto  text-center text-[#808d99]">
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-[950px]  m-4 flex flex-col border-2 rounded-lg  mx-4 bg-red w-76 shadow-lg md:flex md:flex-row md:text-cente">
+      <img
+        src="./images/illustration-flowing-conversation.svg"
+        alt=""
+        class="max-w-[600px] w-3/4 mx-auto my-6 md:2/3 " 
+      />
+      <div class=" text-center flex-1 my-auto">
+
+      <h2 class="my-5 mx-auto text-2xl font-bold">Flowing Conversations</h2>
+      <p class="m-auto p-5 text-center text-[#808d99]">
+        You wouldn't paginate a conversation in real life, so why do it online?
+        Our threads have just-in-time loading for a more natural flow.
+      </p>
+      </div>
+
+    </div>
+
+    <div  class="max-w-[950px]  m-4 flex flex-col border-2 rounded-lg  mx-4 bg-red w-76 shadow-lg md:flex md:flex-row md:text-center">
+      <img   class="max-w-[600px] w-3/4 mx-auto my-6 md:2/3" src="./images/illustration-your-users.svg" alt="" srcset="" />
+      <div class=" text-center flex-1 my-auto">
+
+      <h2  class="my-5 mx-auto text-2xl font-bold">Your Users</h2>
+      <p class="m-auto p-5 text-center text-[#808d99]">
+        It takes no time at all to integrate Huddle with your app's
+        authentication solution. This means, once signed in to your app, your
+        users can start chatting immediately.
+      </p>
+      </div>
+    </div>
+
+    <div class="border-1 bg-white rounded-lg shadow-lg w-11/15  text-center flex-col items-center text-center relative top-16  p-5  md:p-20 ">
+      <h1 class=" text-xl font-semibold md:text-xl mt-5 mb-2">Ready To Build Your Community?</h1>
+      <button class="my-6 px-8 py-2 bg-pink-500 border-1 rounded-full shadow-lg text-white font-semibold">Get Started For Free</button>
+    </div>
+    <footer class="bg-[#00252e] w-screen  text-white p-5 ">
+     <img src="images/logo-white-huddle.png" alt="huddle " class="h-5">
+      <p class="mt-16">
+        <img class="inline  m-2" src="./images/icon-location.svg" alt="locationz" srcset="" />
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua 
+       
+      </p>
+     <P>
+       
+       <img class="inline m-2"  src="./images/icon-phone.svg" alt="" srcset="" /> 
+       +1-543-123-4567
+      </P> 
+      <P>
+        <img class="inline m-2" src="./images/icon-email.svg" alt="" srcset="" />
+        example@huddle.com
+      </P>
+      <ul class="m-3 text-thin">
+        <li>About Us</li>
+        <li>What We Do</li>
+        <li>FAQ</li>
+        <li>Career</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+      <div class="text-center">&copy; Copyright 2018 Huddle. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
